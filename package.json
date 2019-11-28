@@ -1,0 +1,22 @@
+{
+  "name": "pp2019",
+  "version": "1.0.0",
+  "description": "Web Presupuestos Participativos 2019",
+  "scripts": {
+    "webpack": "webpack"
+  },
+  "author": "IPG",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "babel-plugin-transform-async-functions": "^6.22.0",
+    "babel-polyfill": "^6.26.0",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
