@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Web Presupuestos Participativos 2019",
   "scripts": {
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "deploy": "node deploy"
   },
   "author": "IPG",
   "license": "ISC",
@@ -11,6 +12,7 @@
     "@babel/core": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
     "babel-loader": "^8.0.6",
+    "ftp-deploy": "^2.3.6",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   },
