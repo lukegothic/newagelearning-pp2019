@@ -1,6 +1,9 @@
 require("babel-polyfill");
-import games_social from '../data/games_social.js';
-import games_academic from '../data/games_academic.js';
+//import _ from 'lodash';
+import './style.css';
+//import './qr.png';
+import games_social from '../static/data/games_social.json';
+import games_academic from '../static/data/games_academic.json';
 var table = document.getElementById("games_social_table");
 // TODO: limpiar tabla
 // TODO: enlace en nombre
@@ -13,7 +16,7 @@ games_social.forEach(function(game) {
     tr.innerHTML = 
         "<td>" + game.Nombre + "</td>" + 
         "<td>" + game.Género.join(", ") + "</td>" + 
-        "<td>" + game.Precio + "€</td>" + 
+        "<td>" + game.Precio + "</td>" + 
         "<td>" + game.Monetización.join(", ") + "</td>" + 
         "<td>" + (game.RequiereOnline ? "Sí" : "No") + "</td>" + 
         "<td>" + game.Jugadores.min + (game.Jugadores.min !== game.Jugadores.max ? ("-" + game.Jugadores.max) : "") + " jug.</td>" + 

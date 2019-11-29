@@ -1,4 +1,4 @@
-export default [{
+[{
     "Nombre": "Assassin’s Creed Syndicate",
     "Precio": 39.99,
     "Monetización": "",
@@ -118,4 +118,4 @@ export default [{
     "Motivación": "Medio",
     "Temas históricos principales": ["Tropas historicamente relevantes", "Escenarios basados en hechos reales"]
   }
-];
+]
