@@ -1,7 +1,5 @@
 require("babel-polyfill");
-//import _ from 'lodash';
-import './style.css';
-//import './qr.png';
+require('./style.css');
 import games_social from '../static/data/games_social.json';
 import games_academic from '../static/data/games_academic.json';
 var table = document.getElementById("games_social_table");
