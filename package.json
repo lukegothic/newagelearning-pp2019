@@ -4,20 +4,17 @@
   "description": "Web Presupuestos Participativos 2019",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production",
-    "deploy": "node deploy"
+    "build": "webpack --mode production"
   },
   "author": "IPG",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
-    "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
     "bootstrap": "^4.4.1",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.2.0",
-    "eslint": "^6.7.1",
     "file-loader": "^5.0.2",
     "ftp-deploy": "^2.3.6",
     "html-webpack-plugin": "^3.2.0",
