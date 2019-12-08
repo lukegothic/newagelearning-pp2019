@@ -1,28 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
+<!--
+ _   _  _____ _    _    ___  _____  _____  
+| \ | ||  ___| |  | |   / _ \|  __ \|  ___| 
+|  \| || |__ | |  | |  / /_\ \ |  \/| |__   
+| . ` ||  __|| |/\| |  |  _  | | __ |  __|  
+| |\  || |___\  /\  /  | | | | |_\ \| |___  
+\_| \_/\____/ \/  \/   \_| |_/\____/\____/                                                                        
+ _                           _             
+| |                         (_)            
+| |     ___  __ _ _ __ _ __  _ _ __   __ _    ___  ___ 
+| |    / _ \/ _` | '__| '_ \| | '_ \ / _` |  / _ \/ __|
+| |___|  __/ (_| | |  | | | | | | | | (_| | |  __/\__ \
+\_____/\___|\__,_|_|  |_| |_|_|_| |_|\__, |(_)___||___/
+                                      __/ | 
+                                     |___/                                               
+                                       proudly presents
+
+    =================== GeeK PAL ===================
+    La herramienta que te ayuda a elegir videojuegos
+
+visita -- newagelearning.es -- para encontrar mas tools
+
+-->
+<!doctype html>
 <head>
-<meta charset="utf-8" />
-<title>New Age Learning :: Presupuestos Participativos 2019 - Resultados</title>
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <title>Game PAL :: La herramienta que te ayuda a elegir videojuegos</title>
+    <meta charset="UTF-8">
+    <meta name="Description" content="Desarrollada por Luke Perez, CEO de New Age Learning.es, Precio: Gratuito, Funcionalidades: Carga tu coleccion de videjuegos, selecciona cuantas personas, la duracion de la partida y el tipo de mecanismos dentro de videojuego. Game PAL te recomienda los videojuegos mas adecuados segun los parametros establecidos.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:700&display=swap" rel="stylesheet">
 </head>
 <body>
-	<table id="games_social_table" class="table table-sm table-dark">
-		<thead>
-			<tr>
-				<th scope="col">Nombre</th>
-				<th scope="col">Género</th>
-				<th scope="col">Precio</th>
-				<th scope="col">Micropagos</th>
-				<th scope="col">Requiere Online</th>
-				<th scope="col">Jugadores</th>
-				<th scope="col">Personas/ equipo</th>
-				<th scope="col">Modos de juego</th>
-				<th scope="col">Tiempo/ partida</th>
-			</tr>
-		</thead>
-		<tbody></tbody>
-	</table>
-	<script src="https://kit.fontawesome.com/e7b3297bbc.js" crossorigin="anonymous"></script>
+    <div id="main">
+        <div id="header">
+            <div><img src="img/logo_indj.png" /></div>
+            <div>
+                <div class="header-main"><i class="fas fa-stars fa-flip-horizontal"></i>&nbsp;<span data-i18n="ui.title">Game PAL</span>&nbsp;<i class="fas fa-stars"></i></div>
+                <div class="header-sub mgm"></div>
+            </div>
+            <div><img src="img/logo_pp2019.png" /></div>
+        </div>
+        <div id="games">
+            <div id="gametemplate" class="template">
+                <div class="game">
+                    <div class="game-thumb">
+                        <img class="game-image" loading="lazy" />
+                        <!--
+                        <div class="game-score c100 center">
+                            <span></span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        -->
+                    </div>
+                    <div class="game-info">
+                        <div class="game-title"><a target="_blank" rel="nofollow noopener noreferrer"></a><div><i class="game-online fas fa-sack-dollar"></i> <span></span></div></div>
+                        <div class="game-players"><i class="far fa-fw fa-user"></i>&nbsp;<span></span></div>
+                        <div class="game-playtime"><i class="far fa-fw fa-clock"></i>&nbsp;<span></span></div>
+                        <div class="game-type"><i class="far fa-fw"></i>&nbsp;<span></span></div>
+                        <div class="game-weight"><i class="far fa-fw"></i>&nbsp;<span></span></div>
+                        <div class="game-categories no"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="filters sub" id="subfilter_players">
+            <div class="filter none selected" data-filter="players"><i class="fal fa-user"></i><span data-i18n="ui.filters.players.any">Cualquiera</span></div>
+            <div class="filter" data-filter="players" data-value="Solo"><i class="fas fa-user"></i><span data-i18n="ui.filters.players.lv0">Solitario</span></div>
+            <div class="filter" data-filter="players" data-value="Cooperativo"><i class="fas fa-user-friends"></i><span data-i18n="ui.filters.players.lv1">2 jugadores</span></div>
+            <div class="filter" data-filter="players" data-value="Competitivo"><i class="fas fa-users"></i><span data-i18n="ui.filters.players.lv2">3 jugadores</span></div>
+            <div class="filter" data-filter="players" data-value="Competitivo por equipos"><i class="fas fa-people-carry"></i><span data-i18n="ui.filters.players.lv3">4 jugadores</span></div>
+            <div class="filter" data-filter="players" data-value="Masivo"><i class="fas fa-users-class"></i><span data-i18n="ui.filters.players.lv4">5 o m&aacute;s</span></div>
+        </div>
+        <div class="filters sub" id="subfilter_playtime">
+            <div class="filter none selected" data-filter="playtime"><i class="fal fa-clock"></i><span data-i18n="ui.filters.duration.any">Cualquiera</span></div>
+            <div class="filter" data-filter="playtime" data-value="0,10"><i class="far fa-hourglass"></i><span data-i18n="ui.filters.duration.lv0">menos de 15'</span></div>
+            <div class="filter" data-filter="playtime" data-value="10,15"><i class="fad fa-hourglass-half"></i><span data-i18n="ui.filters.duration.lv1">de 15' a 30'</span></div>
+            <div class="filter" data-filter="playtime" data-value="15,30"><i class="fad fa-hourglass-start"></i><span data-i18n="ui.filters.duration.lv2">de 30' a 60'</span></div>
+            <div class="filter" data-filter="playtime" data-value="30,60"><i class="fad fa-hourglass"></i><span data-i18n="ui.filters.duration.lv3">de 1h a 2h</span></div>
+            <div class="filter" data-filter="playtime" data-value="999,999"><i class="fas fa-hourglass"></i><span data-i18n="ui.filters.duration.lv4">m&aacute;s de 2h</span></div>
+        </div>
+        <div class="filters sub" id="subfilter_monetization">
+            <div class="filter none selected" data-filter="monetization"><i class="fal fa-tachometer-average"></i><span data-i18n="ui.filters.skill.any">Cualquiera</span></div>
+            <div class="filter" data-filter="monetization" data-value="Sin micropagos"><i class="fas fa-tachometer-alt-slowest"></i><span data-i18n="ui.filters.skill.lv0">Iniciaci&oacute;n</span></div>
+            <div class="filter" data-filter="monetization" data-value="Cosméticos"><i class="fas fa-tachometer-alt-slow"></i><span data-i18n="ui.filters.skill.lv1">F&aacute;cil</span></div>
+            <div class="filter" data-filter="monetization" data-value="Personajes"><i class="fas fa-tachometer-alt-average"></i><span data-i18n="ui.filters.skill.lv2">Intermedia</span></div>
+            <div class="filter" data-filter="monetization" data-value="Funciones juego"><i class="fas fa-tachometer-alt-fast"></i><span data-i18n="ui.filters.skill.lv3">Dif&iacute;cil</span></div>
+            <div class="filter" data-filter="monetization" data-value="Lootbox"><i class="fas fa-tachometer-alt-fastest"></i><span data-i18n="ui.filters.skill.lv4">Hardcore</span></div>
+        </div>
+        <div class="filters main">
+            <div class="filter" id="filter_players" data-subfilter="subfilter_players"><i class="fal fa-fw fa-user"></i><span data-i18n="ui.filters.players.label">Jugadores</span></div>
+            <div class="filter" id="filter_playtime" data-subfilter="subfilter_playtime"><i class="fal fa-fw fa-clock"></i><span data-i18n="ui.filters.duration.label">Duraci&oacute;n</span></div>
+            <div class="filter" id="filter_monetization" data-subfilter="subfilter_monetization"><i class="fal fa-fw fa-tachometer-average"></i><span data-i18n="ui.filters.skill.label">Dificultad</span></div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/17b4204983.js"></script>
 </body>
 </html>

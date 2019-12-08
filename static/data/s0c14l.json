@@ -1,0 +1,582 @@
+[{
+    "Nombre": "Apex Legends",
+    "Precio": "F2P",
+    "Monetizacion": ["Cosméticos"],
+    "MonetizacionNivel": 2,
+    "Genero": ["BattleRoyal"],
+    "Jugadores": {
+        "min": 60,
+        "max": 60
+    },
+    "RequiereOnline": true,
+    "ModosJuego": ["Competitivo por equipos"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": {
+        "min": 3,
+        "max": 3
+    },
+    "TiempoJuego": {
+        "min": 5,
+        "max": 30
+    },
+    "TiempoJuegoNormalizado": 15,
+    "Imagen": "apexlegends.png"
+},
+{
+    "Nombre": "Fortnite",
+    "Precio": "F2P",
+    "Monetizacion": ["Cosméticos"],
+    "MonetizacionNivel": 2,
+    "Genero": ["BattleRoyal"],
+    "Jugadores": {
+        "min": 100,
+        "max": 100
+    },
+    "RequiereOnline": true,
+    "ModosJuego": ["Competitivo","Competitivo por equipos"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": {
+        "min": 2,
+        "max": 4
+    },
+    "TiempoJuego": {
+        "min": 5,
+        "max": 30
+    },
+    "TiempoJuegoNormalizado": 15,
+    "Imagen": "fornite.png"
+},
+{
+    "Nombre": "League of Legends",
+    "Precio": "F2P",
+    "Monetizacion": ["Cosméticos", "Personajes"],
+    "MonetizacionNivel": 3,
+    "Genero": ["MOBA"],
+    "Jugadores": {
+        "min": 10,
+        "max": 10
+    },
+    "RequiereOnline": true,
+    "ModosJuego": ["Competitivo por equipos"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": {
+        "min": 5,
+        "max": 5
+    },
+    "TiempoJuego": {
+        "min": 30,
+        "max": 60
+    },
+    "TiempoJuegoNormalizado": 45,
+    "Imagen": "lol.png"
+},
+{
+    "Nombre": "World Of Warcraft",
+    "Precio": "12.99€/mes",
+    "Monetizacion": ["Sin micropagos"],
+    "MonetizacionNivel": 1,
+    "Genero": ["MMORPG"],
+    "Jugadores": {
+        "min": 1,
+        "max": 999
+    },
+    "RequiereOnline": true,
+    "ModosJuego": ["Solo","Competitivo","Cooperativo","Masivo"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": {
+        "min": 5,
+        "max": 40
+    },
+    "TiempoJuego": null,
+    "TiempoJuegoNormalizado": 999,
+    "Imagen": "wow.jpeg"
+},
+{
+    "Nombre": "Clash Royale",
+    "Precio": "F2P",
+    "Monetizacion": ["Lootbox"],
+    "MonetizacionNivel": 5,
+    "Genero": ["Estrategia"],
+    "Jugadores": {
+        "min": 1,
+        "max": 4
+    },
+    "RequiereOnline": true,
+    "ModosJuego": ["Competitivo","Competitivo por equipos"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": {
+        "min": 2,
+        "max": 2
+    },
+    "TiempoJuego": {
+        "min": 5,
+        "max": 5
+    },
+    "TiempoJuegoNormalizado": 5,
+    "Imagen": "clashroyale.png"
+},
+{
+    "Nombre": "Brawl Stars",
+    "Precio": "F2P",
+    "Monetizacion": ["Lootbox", "Cosméticos"],
+    "MonetizacionNivel": 5,
+    "Genero": ["BattleRoyal"],
+    "Jugadores": {
+        "min": 6,
+        "max": 6
+    },
+    "RequiereOnline": true,
+    "ModosJuego": ["Competitivo por equipos"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": {
+        "min": 3,
+        "max": 3
+    },
+    "TiempoJuego": {
+        "min": 5,
+        "max": 5
+    },
+    "TiempoJuegoNormalizado": 5,
+    "Imagen": "brawlstars.jpeg"
+},
+{
+    "Nombre": "FIFA",
+    "Precio": "59.99€",
+    "Monetizacion": ["Lootbox"],
+    "MonetizacionNivel": 5,
+    "Genero": ["Deporte"],
+    "Jugadores": {
+        "min": 1,
+        "max": 22
+    },
+    "RequiereOnline": false,
+    "ModosJuego": ["Solo","Competitivo","Cooperativo","Competitivo por equipos"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": {
+        "min": 2,
+        "max": 11
+    },
+    "TiempoJuego": {
+        "min": 15,
+        "max": 15
+    },
+    "TiempoJuegoNormalizado": 15,
+    "Imagen": "fifa.jpeg"
+},
+{
+    "Nombre": "Counter-Strike Global Offensive",
+    "Precio": "14.99€",
+    "Monetizacion": ["Lootbox"],
+    "MonetizacionNivel": 5,
+    "Genero": ["Shooter"],
+    "Jugadores": {
+        "min": 10,
+        "max": 10
+    },
+    "RequiereOnline": false,
+    "ModosJuego": ["Competitivo por equipos"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": {
+        "min": 5,
+        "max": 5
+    },
+    "TiempoJuego": {
+        "min": 5,
+        "max": 5
+    },
+    "TiempoJuegoNormalizado": 5,
+    "Imagen": "csgo.jpeg"
+},
+{
+    "Nombre": "Path of Exile",
+    "Precio": "F2P",
+    "Monetizacion": ["Cosméticos","Funciones juego"],
+    "MonetizacionNivel": 4,
+    "Genero": ["RPG"],
+    "Jugadores": {
+        "min": 1,
+        "max": 6
+    },
+    "RequiereOnline": true,
+    "ModosJuego": ["Solo", "Cooperativo"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": {
+        "min": 2,
+        "max": 6
+    },
+    "TiempoJuego": null,
+    "TiempoJuegoNormalizado": 999,
+    "Imagen": "poe.jpg"
+},
+{
+    "Nombre": "Overwatch",
+    "Precio": "19.99€",
+    "Monetizacion": ["Lootbox"],
+    "MonetizacionNivel": 5,
+    "Genero": ["Shooter"],
+    "Jugadores": {
+        "min": 12,
+        "max": 12
+    },
+    "RequiereOnline": true,
+    "ModosJuego": ["Competitivo por equipos"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": {
+        "min": 6,
+        "max": 6
+    },
+    "TiempoJuego": {
+        "min": 30,
+        "max": 30
+    },
+    "TiempoJuegoNormalizado": 30,
+    "Imagen": "overwatch.jpeg"
+},
+{
+    "Nombre": "Total War Three Kingdoms",
+    "Precio": "29.99€",
+    "Monetizacion": ["Sin micropagos"],
+    "MonetizacionNivel": 1,
+    "Genero": ["Estrategia"],
+    "Jugadores": {
+        "min": 1,
+        "max": 8
+    },
+    "RequiereOnline": false,
+    "ModosJuego": ["Solo","Competitivo","Competitivo por equipos"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": {
+        "min": 2,
+        "max": 4
+    },
+    "TiempoJuego": {
+        "min": 60,
+        "max": 60
+    },
+    "TiempoJuegoNormalizado": 60,
+    "Imagen": "totalwar.jpg"
+},
+{
+    "Nombre": "Magic Arena",
+    "Precio": "F2P",
+    "Monetizacion": ["Lootbox","Cosméticos"],
+    "MonetizacionNivel": 5,
+    "Genero": ["Estrategia"],
+    "Jugadores": {
+        "min": 2,
+        "max": 2
+    },
+    "RequiereOnline": true,
+    "ModosJuego": ["Competitivo"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": null,
+    "TiempoJuego": {
+        "min": 10,
+        "max": 10
+    },
+    "TiempoJuegoNormalizado": 10,
+    "Imagen": "mtga.png"
+},
+{
+    "Nombre": "Minecraft",
+    "Precio": "14.99€",
+    "Monetizacion": ["Sin micropagos"],
+    "MonetizacionNivel": 1,
+    "Genero": ["Creativo"],
+    "Jugadores": {
+        "min": 1,
+        "max": 50
+    },
+    "RequiereOnline": false,
+    "ModosJuego": ["Solo", "Cooperativo"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": {
+        "min": 2,
+        "max": 50
+    },
+    "TiempoJuego": null,
+    "TiempoJuegoNormalizado": 999,
+    "Imagen": "minecraft.jpeg"
+},
+{
+    "Nombre": "Super Mario Maker 2",
+    "Precio": "49.99€",
+    "Monetizacion": ["Sin micropagos"],
+    "MonetizacionNivel": 1,
+    "Genero": ["Creativo"],
+    "Jugadores": {
+        "min": 1,
+        "max": 999
+    },
+    "RequiereOnline": false,
+    "ModosJuego": ["Solo","Competitivo"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": null,
+    "TiempoJuego": null,
+    "TiempoJuegoNormalizado": 999,
+    "Imagen": "supermariomaker2.png"
+},
+{
+    "Nombre": "World of Tanks",
+    "Precio": "F2P",
+    "Monetizacion": ["Cosméticos","Funciones juego"],
+    "MonetizacionNivel": 4,
+    "Genero": ["Shooter"],
+    "Jugadores": {
+        "min": 30,
+        "max": 30
+    },
+    "RequiereOnline": true,
+    "ModosJuego": ["Competitivo por equipos"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": {
+        "min": 15,
+        "max": 15
+    },
+    "TiempoJuego": {
+        "min": 15,
+        "max": 15
+    },
+    "TiempoJuegoNormalizado": 999,
+    "Imagen": "worldoftanks.jpg"
+},
+{
+    "Nombre": "Starcraft 2",
+    "Precio": "49.99€",
+    "Monetizacion": ["Sin micropagos"],
+    "MonetizacionNivel": 1,
+    "Genero": ["Estrategia"],
+    "Jugadores": {
+        "min": 1,
+        "max": 12
+    },
+    "RequiereOnline": false,
+    "ModosJuego": ["Competitivo","Cooperativo","Competitivo por equipos"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": {
+        "min": 2,
+        "max": 6
+    },
+    "TiempoJuego": {
+        "min": 30,
+        "max": 30
+    },
+    "TiempoJuegoNormalizado": 30,
+    "Imagen": "sc2.jpeg"
+},
+{
+    "Nombre": "Super Smash Bros",
+    "Precio": "49.99€",
+    "Monetizacion": ["Sin micropagos"],
+    "MonetizacionNivel": 1,
+    "Genero": ["Lucha"],
+    "Jugadores": {
+        "min": 1,
+        "max": 8
+    },
+    "RequiereOnline": false,
+    "ModosJuego": ["Solo","Competitivo","Competitivo por equipos"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": {
+        "min": 2,
+        "max": 4
+    },
+    "TiempoJuego": {
+        "min": 5,
+        "max": 5
+    },
+    "TiempoJuegoNormalizado": 5,
+    "Imagen": "ssbu.jpeg"
+},
+{
+    "Nombre": "Just Dance",
+    "Precio": "9.99€",
+    "Monetizacion": ["Sin micropagos"],
+    "MonetizacionNivel": 1,
+    "Genero": ["Baile"],
+    "Jugadores": {
+        "min": 1,
+        "max": 4
+    },
+    "RequiereOnline": false,
+    "ModosJuego": ["Solo","Competitivo"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": null,
+    "TiempoJuego": {
+        "min": 5,
+        "max": 5
+    },
+    "TiempoJuegoNormalizado": 5,
+    "Imagen": "justdance.png"
+},
+{
+    "Nombre": "Assassin's Creed",
+    "Precio": "49.99€",
+    "Monetizacion": ["Sin micropagos"],
+    "MonetizacionNivel": 1,
+    "Genero": ["Aventura"],
+    "Jugadores": {
+        "min": 1,
+        "max": 1
+    },
+    "RequiereOnline": false,
+    "ModosJuego": ["Solo"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": null,
+    "TiempoJuego": null,
+    "TiempoJuegoNormalizado": 999,
+    "Imagen": "assassinscreed.jpg"
+},
+{
+    "Nombre": "Splatoon 2",
+    "Precio": "39.99€",
+    "Monetizacion": ["Sin micropagos"],
+    "MonetizacionNivel": 1,
+    "Genero": ["Shooter"],
+    "Jugadores": {
+        "min": 8,
+        "max": 8
+    },
+    "RequiereOnline": true,
+    "ModosJuego": ["Competitivo por equipos"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": {
+        "min": 4,
+        "max": 4
+    },
+    "TiempoJuego": {
+        "min": 5,
+        "max": 5
+    },
+    "TiempoJuegoNormalizado": 5,
+    "Imagen": "splatoon2.png"
+},
+{
+    "Nombre": "Ark",
+    "Precio": "14.99€",
+    "Monetizacion": ["Sin micropagos"],
+    "MonetizacionNivel": 1,
+    "Genero": ["MMORPG"],
+    "Jugadores": {
+        "min": 1,
+        "max": 999
+    },
+    "RequiereOnline": true,
+    "ModosJuego": ["Solo","Masivo"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": null,
+    "TiempoJuego": null,
+    "TiempoJuegoNormalizado": 999,
+    "Imagen": "ark.png"
+},
+{
+    "Nombre": "Garry's Mod  - Hide and Seek",
+    "Precio": "14.99€",
+    "Monetizacion": ["Sin micropagos"],
+    "MonetizacionNivel": 1,
+    "Genero": ["Sandbox"],
+    "Jugadores": {
+        "min": 2,
+        "max": 16
+    },
+    "RequiereOnline": true,
+    "ModosJuego": ["Competitivo por equipos"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": {
+        "min": 8,
+        "max": 8
+    },
+    "TiempoJuego": {
+        "min": 5,
+        "max": 5
+    },
+    "TiempoJuegoNormalizado": 5,
+    "Imagen": "garrymod.jpg"
+},
+{
+    "Nombre": "Halo 5",
+    "Precio": "39.99€",
+    "Monetizacion": ["Sin micropagos"],
+    "MonetizacionNivel": 1,
+    "Genero": ["Shooter"],
+    "Jugadores": {
+        "min": 1,
+        "max": 8
+    },
+    "RequiereOnline": false,
+    "ModosJuego": ["Solo", "Cooperativo", "Competitivo por equipos"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": {
+        "min": 4,
+        "max": 4
+    },
+    "TiempoJuego": {
+        "min": 10,
+        "max": 10
+    },
+    "TiempoJuegoNormalizado": 10,
+    "Imagen": "halo5.jpg"
+},
+{
+    "Nombre": "Getting Over it",
+    "Precio": "9.99€",
+    "Monetizacion": ["Sin micropagos"],
+    "MonetizacionNivel": 1,
+    "Genero": ["Habilidad"],
+    "Jugadores": {
+        "min": 1,
+        "max": 1
+    },
+    "RequiereOnline": false,
+    "ModosJuego": ["Solo"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": null,
+    "TiempoJuego": null,
+    "TiempoJuegoNormalizado": 999,
+    "Imagen": "goi.png"
+},
+{
+    "Nombre": "Pokemon Go",
+    "Precio": "F2P",
+    "Monetizacion": ["Funciones juego"],
+    "MonetizacionNivel": 4,
+    "Genero": ["RPG"],
+    "Jugadores": {
+        "min": 1,
+        "max": 999
+    },
+    "RequiereOnline": true,
+    "ModosJuego": ["Solo", "Competitivo", "Cooperativo", "Competitivo por equipos"],
+    "PuedoJugarSinAmigos": true,
+    "PersonasPorEquipo": {
+        "min": 500,
+        "max": 500
+    },
+    "TiempoJuego": null,
+    "TiempoJuegoNormalizado": 999,
+    "Imagen": "pokemongo.png"
+},
+{
+    "Nombre": "Overcooked 2",
+    "Precio": "39.99€",
+    "Monetizacion": ["Sin micropagos"],
+    "MonetizacionNivel": 1,
+    "Genero": ["Simulación"],
+    "Jugadores": {
+        "min": 1,
+        "max": 4
+    },
+    "RequiereOnline": false,
+    "ModosJuego": ["Cooperativo"],
+    "PuedoJugarSinAmigos": false,
+    "PersonasPorEquipo": {
+        "min": 2,
+        "max": 4
+    },
+    "TiempoJuego": {
+        "min": 10,
+        "max": 10
+    },
+    "TiempoJuegoNormalizado": 10,
+    "Imagen": "overcooked2.png"
+}]

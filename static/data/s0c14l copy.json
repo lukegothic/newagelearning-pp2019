@@ -1,8 +1,8 @@
 [{
     "Nombre": "Apex Legends",
     "Precio": "F2P",
-    "Monetización": ["Cosméticos"],
-    "Género": ["BR","FPS"],
+    "Monetizacion": ["Cosméticos"],
+    "Genero": ["Battle Royale","Shooter en primera persona"],
     "Jugadores": {
         "min": 60,
         "max": 60
@@ -17,13 +17,14 @@
     "TiempoJuego": {
         "min": 5,
         "max": 30
-    }
+    },
+    "Imagen": "apexlegends.png"
 },
 {
     "Nombre": "Fortnite",
     "Precio": "F2P",
-    "Monetización": ["Cosméticos"],
-    "Género": ["BR","FPS"],
+    "Monetizacion": ["Cosméticos"],
+    "Genero": ["Battle Royale","Shooter en primera persona"],
     "Jugadores": {
         "min": 100,
         "max": 100
@@ -38,13 +39,14 @@
     "TiempoJuego": {
         "min": 5,
         "max": 30
-    }
+    },
+    "Imagen": "fornite.png"
 },
 {
     "Nombre": "League of Legends",
     "Precio": "F2P",
-    "Monetización": ["Cosméticos", "Personajes"],
-    "Género": ["MOBA"],
+    "Monetizacion": ["Cosméticos", "Personajes"],
+    "Genero": ["MOBA"],
     "Jugadores": {
         "min": 10,
         "max": 10
@@ -59,31 +61,33 @@
     "TiempoJuego": {
         "min": 30,
         "max": 60
-    }
+    },
+    "Imagen": "lol.png"
 },
 {
     "Nombre": "World Of Warcraft",
-    "Precio": "Cuota Mensual",
-    "Monetización": [],
-    "Género": ["MMORPG"],
+    "Precio": "12.99€/mes",
+    "Monetizacion": null,
+    "Genero": ["MMORPG"],
     "Jugadores": {
         "min": 1,
-        "max": 5000
+        "max": 999
     },
     "RequiereOnline": true,
-    "ModosJuego": ["Solo","Competitivo","Cooperativo"],
+    "ModosJuego": ["Solo","Competitivo","Cooperativo","Masivo"],
     "PuedoJugarSinAmigos": true,
     "PersonasPorEquipo": {
         "min": 5,
         "max": 40
     },
-    "TiempoJuego": null
+    "TiempoJuego": null,
+    "Imagen": "wow.jpeg"
 },
 {
     "Nombre": "Clash Royale",
     "Precio": "F2P",
-    "Monetización": ["Lootbox"],
-    "Género": ["RTS"],
+    "Monetizacion": ["Lootbox"],
+    "Genero": ["Estrategia en tiempo real"],
     "Jugadores": {
         "min": 1,
         "max": 4
@@ -98,13 +102,14 @@
     "TiempoJuego": {
         "min": 5,
         "max": 5
-    }
+    },
+    "Imagen": "clashroyale.png"
 },
 {
     "Nombre": "Brawl Stars",
     "Precio": "F2P",
-    "Monetización": ["Lootbox", "Cosméticos"],
-    "Género": ["BR", "Shooter"],
+    "Monetizacion": ["Lootbox", "Cosméticos"],
+    "Genero": ["Battle Royale", "Shooter"],
     "Jugadores": {
         "min": 6,
         "max": 6
@@ -119,13 +124,14 @@
     "TiempoJuego": {
         "min": 5,
         "max": 5
-    }
+    },
+    "Imagen": "brawlstars.jpeg"
 },
 {
     "Nombre": "FIFA",
     "Precio": "PVP",
-    "Monetización": ["Lootbox"],
-    "Género": ["Deporte"],
+    "Monetizacion": ["Lootbox"],
+    "Genero": ["Deporte"],
     "Jugadores": {
         "min": 1,
         "max": 22
@@ -140,13 +146,14 @@
     "TiempoJuego": {
         "min": 15,
         "max": 15
-    }
+    },
+    "Imagen": "fifa.jpeg"
 },
 {
     "Nombre": "Counter-Strike Global Offensive",
     "Precio": "PVP",
-    "Monetización": ["Lootbox"],
-    "Género": ["FPS"],
+    "Monetizacion": ["Lootbox"],
+    "Genero": ["Shooter en primera persona"],
     "Jugadores": {
         "min": 10,
         "max": 10
@@ -161,13 +168,14 @@
     "TiempoJuego": {
         "min": 5,
         "max": 5
-    }
+    },
+    "Imagen": "csgo.jpeg"
 },
 {
     "Nombre": "Path of Exile",
     "Precio": "F2P",
-    "Monetización": ["Cosméticos","QOL"],
-    "Género": ["RPG"],
+    "Monetizacion": ["Cosméticos","Funciones juego"],
+    "Genero": ["RPG"],
     "Jugadores": {
         "min": 1,
         "max": 6
@@ -179,13 +187,14 @@
         "min": 2,
         "max": 6
     },
-    "TiempoJuego": null
+    "TiempoJuego": null,
+    "Imagen": "poe.jpg"
 },
 {
     "Nombre": "Overwatch",
     "Precio": "PVP",
-    "Monetización": ["Lootbox"],
-    "Género": ["FPS"],
+    "Monetizacion": ["Lootbox"],
+    "Genero": ["Shooter en primera persona"],
     "Jugadores": {
         "min": 12,
         "max": 12
@@ -200,13 +209,14 @@
     "TiempoJuego": {
         "min": 30,
         "max": 30
-    }
+    },
+    "Imagen": "overwatch.jpeg"
 },
 {
     "Nombre": "Total War Three Kingdoms",
     "Precio": "PVP",
-    "Monetización": [],
-    "Género": ["RTS"],
+    "Monetizacion": null,
+    "Genero": ["Estrategia en tiempo real"],
     "Jugadores": {
         "min": 1,
         "max": 8
@@ -221,13 +231,14 @@
     "TiempoJuego": {
         "min": 60,
         "max": 60
-    }
+    },
+    "Imagen": "totalwar.jpg"
 },
 {
     "Nombre": "Magic Arena",
     "Precio": "F2P",
-    "Monetización": ["Lootbox","Cosméticos"],
-    "Género": ["TBS"],
+    "Monetizacion": ["Lootbox","Cosméticos"],
+    "Genero": ["Estrategia por turnos"],
     "Jugadores": {
         "min": 2,
         "max": 2
@@ -239,13 +250,14 @@
     "TiempoJuego": {
         "min": 10,
         "max": 10
-    }
+    },
+    "Imagen": "mtga.png"
 },
 {
     "Nombre": "Minecraft",
     "Precio": "PVP",
-    "Monetización": [],
-    "Género": ["Creativo","Aventura"],
+    "Monetizacion": null,
+    "Genero": ["Creativo","Aventura"],
     "Jugadores": {
         "min": 1,
         "max": 50
@@ -257,28 +269,30 @@
         "min": 2,
         "max": 50
     },
-    "TiempoJuego": null
+    "TiempoJuego": null,
+    "Imagen": "minecraft.jpeg"
 },
 {
     "Nombre": "Super Mario Maker 2",
     "Precio": "PVP",
-    "Monetización": [],
-    "Género": ["Creativo","Plataformas"],
+    "Monetizacion": null,
+    "Genero": ["Creativo","Plataformas"],
     "Jugadores": {
         "min": 1,
-        "max": 5000
+        "max": 999
     },
     "RequiereOnline": false,
     "ModosJuego": ["Solo","Competitivo"],
     "PuedoJugarSinAmigos": true,
     "PersonasPorEquipo": null,
-    "TiempoJuego": null
+    "TiempoJuego": null,
+    "Imagen": "supermariomaker2.png"
 },
 {
     "Nombre": "World of Tanks",
     "Precio": "F2P",
-    "Monetización": ["Cosméticos","Personajes","QOL"],
-    "Género": ["Shooter"],
+    "Monetizacion": ["Cosméticos","Funciones juego"],
+    "Genero": ["Shooter"],
     "Jugadores": {
         "min": 30,
         "max": 30
@@ -293,13 +307,14 @@
     "TiempoJuego": {
         "min": 15,
         "max": 15
-    }
+    },
+    "Imagen": "worldoftanks.jpg"
 },
 {
     "Nombre": "Starcraft 2",
     "Precio": "PVP",
-    "Monetización": [],
-    "Género": ["RTS"],
+    "Monetizacion": null,
+    "Genero": ["Estrategia en tiempo real"],
     "Jugadores": {
         "min": 1,
         "max": 12
@@ -314,13 +329,14 @@
     "TiempoJuego": {
         "min": 30,
         "max": 30
-    }
+    },
+    "Imagen": "sc2.jpeg"
 },
 {
     "Nombre": "Super Smash Bros",
     "Precio": "PVP",
-    "Monetización": [],
-    "Género": ["Lucha"],
+    "Monetizacion": null,
+    "Genero": ["Lucha"],
     "Jugadores": {
         "min": 1,
         "max": 8
@@ -335,13 +351,14 @@
     "TiempoJuego": {
         "min": 5,
         "max": 5
-    }
+    },
+    "Imagen": "ssbu.jpeg"
 },
 {
     "Nombre": "Just Dance",
     "Precio": "PVP",
-    "Monetización": [],
-    "Género": ["Baile"],
+    "Monetizacion": null,
+    "Genero": ["Baile"],
     "Jugadores": {
         "min": 1,
         "max": 4
@@ -353,13 +370,14 @@
     "TiempoJuego": {
         "min": 5,
         "max": 5
-    }
+    },
+    "Imagen": "justdance.png"
 },
 {
     "Nombre": "Assassin's Creed",
     "Precio": "PVP",
-    "Monetización": [],
-    "Género": ["Aventura","Plataformas"],
+    "Monetizacion": null,
+    "Genero": ["Aventura","Plataformas"],
     "Jugadores": {
         "min": 1,
         "max": 1
@@ -368,13 +386,14 @@
     "ModosJuego": ["Solo"],
     "PuedoJugarSinAmigos": true,
     "PersonasPorEquipo": null,
-    "TiempoJuego": null
+    "TiempoJuego": null,
+    "Imagen": "assassinscreed.jpg"
 },
 {
     "Nombre": "Splatoon 2",
     "Precio": "PVP",
-    "Monetización": [],
-    "Género": ["Shooter"],
+    "Monetizacion": null,
+    "Genero": ["Shooter"],
     "Jugadores": {
         "min": 8,
         "max": 8
@@ -389,28 +408,30 @@
     "TiempoJuego": {
         "min": 5,
         "max": 5
-    }
+    },
+    "Imagen": "splatoon2.png"
 },
 {
     "Nombre": "Ark",
     "Precio": "PVP",
-    "Monetización": [],
-    "Género": ["MMORPG"],
+    "Monetizacion": null,
+    "Genero": ["MMORPG"],
     "Jugadores": {
         "min": 1,
-        "max": 5000
+        "max": 999
     },
     "RequiereOnline": true,
-    "ModosJuego": ["Solo"],
+    "ModosJuego": ["Solo", "Masivo"],
     "PuedoJugarSinAmigos": true,
     "PersonasPorEquipo": null,
-    "TiempoJuego": null
+    "TiempoJuego": null,
+    "Imagen": "ark.png"
 },
 {
     "Nombre": "Garry's Mod  - Hide and Seek",
     "Precio": "PVP",
-    "Monetización": [],
-    "Género": ["Sandbox"],
+    "Monetizacion": null,
+    "Genero": ["Sandbox"],
     "Jugadores": {
         "min": 2,
         "max": 16
@@ -425,13 +446,14 @@
     "TiempoJuego": {
         "min": 5,
         "max": 5
-    }
+    },
+    "Imagen": "garrymod.jpg"
 },
 {
     "Nombre": "Halo 5",
     "Precio": "PVP",
-    "Monetización": [],
-    "Género": ["Aventura","FPS"],
+    "Monetizacion": null,
+    "Genero": ["Aventura","Shooter en primera persona"],
     "Jugadores": {
         "min": 1,
         "max": 8
@@ -446,13 +468,14 @@
     "TiempoJuego": {
         "min": 10,
         "max": 10
-    }
+    },
+    "Imagen": "halo5.jpg"
 },
 {
     "Nombre": "Getting Over it",
     "Precio": "PVP",
-    "Monetización": [],
-    "Género": ["Plataformas"],
+    "Monetizacion": null,
+    "Genero": ["Plataformas"],
     "Jugadores": {
         "min": 1,
         "max": 1
@@ -461,31 +484,33 @@
     "ModosJuego": ["Solo"],
     "PuedoJugarSinAmigos": true,
     "PersonasPorEquipo": null,
-    "TiempoJuego": null
+    "TiempoJuego": null,
+    "Imagen": "goi.png"
 },
 {
     "Nombre": "Pokemon Go",
     "Precio": "F2P",
-    "Monetización": ["QOL"],
-    "Género": ["Location-Based Game"],
+    "Monetizacion": ["Funciones juego"],
+    "Genero": ["Location-Based Game"],
     "Jugadores": {
         "min": 1,
-        "max": 5000
+        "max": 999
     },
     "RequiereOnline": true,
     "ModosJuego": ["Solo", "Competitivo", "Cooperativo", "Competitivo por equipos"],
     "PuedoJugarSinAmigos": true,
     "PersonasPorEquipo": {
-        "min": 2000,
-        "max": 2000
+        "min": 500,
+        "max": 500
     },
-    "TiempoJuego": null
+    "TiempoJuego": null,
+    "Imagen": "pokemongo.png"
 },
 {
     "Nombre": "Overcooked 2",
     "Precio": "PVP",
-    "Monetización": [],
-    "Género": ["Simulación"],
+    "Monetizacion": null,
+    "Genero": ["Simulación"],
     "Jugadores": {
         "min": 1,
         "max": 4
@@ -500,13 +525,14 @@
     "TiempoJuego": {
         "min": 10,
         "max": 10
-    }
+    },
+    "Imagen": "overcooked2.png"
 },
 {
     "Nombre": "Don't Starve Together",
     "Precio": "PVP",
-    "Monetización": ["Cosméticos"],
-    "Género": ["Creativo","Aventura"],
+    "Monetizacion": ["Cosméticos"],
+    "Genero": ["Creativo","Aventura"],
     "Jugadores": {
         "min": 2,
         "max": 4
@@ -518,5 +544,6 @@
         "min": 2,
         "max": 4
     },
-    "TiempoJuego": null
+    "TiempoJuego": null,
+    "Imagen": "dontstarvetogether.png"
 }]
